@@ -60,17 +60,6 @@ Implemented state-of-the-art architectures to capture non-linear and temporal dy
 
 ---
 
-## 🚀 Key Results
-| Model Architecture | Accuracy / R² | Key Observation |
-| :--- | :--- | :--- |
-| **Naive Bayes** | ~66% | Fails due to strong feature correlation (Independence assumption violated). |
-| **LDA** | ~85% | Strong geometric separation of classes. |
-| **XGBoost** | ~94% | Excellent handling of non-linear thresholds. |
-| **CNN-BiLSTM** | **~98%** | **Best Performer.** Successfully captures complex temporal patterns and lag effects. |
-
-*> Note: Detailed confusion matrices and ROC curves are available in the project notebook.*
-
----
 
 ## 💻 Technologies Used
 * **Language:** Python 3.10+
